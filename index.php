@@ -9,3 +9,19 @@
 
 http://php.net/manual/fr/function.mt-rand.php
 */
+
+?>
+
+<form action="form.php" method="post">
+    <div>
+        <label for="numberMin">nombre mini</label>
+        <input type="number" name="numberMin" id="numberMin" required>
+    </div>
+    <div>
+        <label for="numberMax">nombre max</label>
+        <input type="number" name="numberMax" id="numberMax" required>
+    </div>
+    <div>
+        <input type="submit" name="submit">
+    </div>
+</form>
